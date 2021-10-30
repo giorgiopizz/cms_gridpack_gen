@@ -5,7 +5,7 @@ files = os.listdir('restrict_cards/v3_0')
 
 
 
-p = re.compile('restrict_[a-zA-Z]+_massless.dat')
+p = re.compile('restrict_[a-zA-Z0-9]+_massless.dat')
 
 #list(filt
 
